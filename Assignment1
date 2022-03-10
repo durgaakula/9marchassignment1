@@ -1,0 +1,23 @@
+str=input()
+u=l=d=a=0
+for ch in str:
+    if(ch.isupper()):
+        u=u+ 1 
+    elif(ch.islower()):
+        l=l+ 1 
+    elif(ch.isdigit()):
+        d=d+1 
+    elif(ch.isalpha()):
+        a=a+1  
+    else:
+       pass
+print(u)
+print(l)
+print(d)
+print(a)
+MyNameIsDurgaaStudyingAdityaDegreeCollege18YearsOld
+10
+41
+2
+0
+
